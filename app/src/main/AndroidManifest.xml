@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Activitydatos"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityRecepcionDatos"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
